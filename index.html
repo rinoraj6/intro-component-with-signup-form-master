@@ -13,30 +13,103 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  Learn to code by watching others
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+  <div class="main"> <!-- main-->
 
-  Try it free 7 days then $20/mo. thereafter
+    <div class="container"> <!-- container-->
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+      <div class="col col-1"> <!-- column-1 -->
 
-  Claim your free trial 
+        <div class="wrapper"> <!-- wrapper-1 -->
 
-  By clicking the button, you are agreeing to our Terms and Services
+          <h1>Learn to code by watching others</h1>
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable. </p>
+        </div> <!-- wrapper-1  ends -->
+      </div> <!-- column-2 -->
+
+      <div class="col col-2"> <!-- column-2 -->
+
+          <div class="wrapper"> <!-- wrapper-2 --> 
+
+            <button class="btn-blue">
+              <span>Try it free 7 days</span> then $20/mo. thereafter
+            </button>
+
+            <div class="form">
+
+              <fieldset class="fieldset">
+
+                <div class="box">
+                  <input type="text" placeholder="First Name " class="form-input" id="fname">
+                  <img src="./images/icon-error.svg" alt="" class="hide-me">
+                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="box">
+                  <input type="text" placeholder="Last Name " class="form-input" id="lname">
+                  <img src="./images/icon-error.svg" alt="" class="hide-me">
+                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="box">
+                  <input type="text" placeholder="Email Address " class="form-input" id="email">
+                  <img src="./images/icon-error.svg" alt="" class="hide-me">
+                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="box">
+                  <input type="text" placeholder="Password" class="form-input" id="pword">
+                  <img src="./images/icon-error.svg" alt="" class="hide-me">
+                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                </div>
+                
+                <div class="box">
+                  <button class="btn-green">
+                    Claim your free trial 
+                  </button>
+                </div>
+
+                <div class="box">
+                  <p id="terms">
+                    By clicking the button, you are agreeing to our <span><a href="#">Terms and Services</a></span> 
+                  </p>
+                </div>
+
+              </fieldset>
+            </div>
+
+          </div> <!-- wrapper-2  ends-->
+
+      </div> <!-- column-2 ends-->
+
+    </div> <!-- container ends-->
+    
+  </div> <!-- main ends-->
+
+
+  <!-- 
   
-  <footer>
+
+  -->
+  
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
+
+  <!-- script -->
+  <script src="./script.js"></script>
+  <!-- script -->
+
 </body>
 </html>
