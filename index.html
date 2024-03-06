@@ -43,32 +43,32 @@
               <span>Try it free 7 days</span> then $20/mo. thereafter
             </button>
 
-            <div class="form">
+            <form class="form">
 
               <fieldset class="fieldset">
 
                 <div class="box">
                   <input type="text" placeholder="First Name " class="form-input" id="fname">
                   <img src="./images/icon-error.svg" alt="" class="hide-me">
-                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                  <p class="error-msg hide-me " id="p1">First Name cannot be empty</p>
                 </div>
 
                 <div class="box">
                   <input type="text" placeholder="Last Name " class="form-input" id="lname">
                   <img src="./images/icon-error.svg" alt="" class="hide-me">
-                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                  <p class="error-msg hide-me" id="p2">Last Name cannot be empty</p>
                 </div>
 
                 <div class="box">
-                  <input type="text" placeholder="Email Address " class="form-input" id="email">
+                  <input type="email" placeholder="Email Address " class="form-input" id="email" required>
                   <img src="./images/icon-error.svg" alt="" class="hide-me">
-                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                  <p class="error-msg hide-me" id="p3">Lorem ipsum dolor sit amet.</p>
                 </div>
 
                 <div class="box">
-                  <input type="text" placeholder="Password" class="form-input" id="pword">
+                  <input type="password" placeholder="Password" class="form-input" id="pword">
                   <img src="./images/icon-error.svg" alt="" class="hide-me">
-                  <p class="error-msg hide-me">Lorem ipsum dolor sit amet.</p>
+                  <p class="error-msg hide-me" id="p4">Lorem ipsum dolor sit amet.</p>
                 </div>
                 
                 <div class="box">
@@ -84,7 +84,7 @@
                 </div>
 
               </fieldset>
-            </div>
+            </form>
 
           </div> <!-- wrapper-2  ends-->
 

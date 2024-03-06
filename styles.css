@@ -104,7 +104,6 @@ body{
 .fieldset .box input{
     width: 100%;
     padding: 1.5rem 2rem;
-    outline: 1px solid var(--DarkBlue);
     border-radius: .5rem;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -114,6 +113,17 @@ body{
     outline-style:solid
     
 }
+
+.color-change{
+    color:var(--Red);
+    font-weight: 600;
+    outline: var(--Red);
+    outline-width: .5px;
+    outline-style:solid
+}
+
+
+
 .fieldset .box input:focus-visible{
     outline: var(--DarkBlue);
     outline-width: .5px;
@@ -125,13 +135,19 @@ body{
 
 
 .fieldset .box img{
+    
     position: absolute;
-    top: 35%;
+    top: 25%;
     right: 2rem;
 }
 
 .fieldset .box .error-msg{
     text-align: right;
+    color: var(--Red);
+    font-size: .6rem;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: .5rem;
 }
 
 
