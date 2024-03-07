@@ -159,7 +159,7 @@ body{
     background-color: var(--Green);
     border: none;
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 1rem 0 1rem 0;
     text-transform: uppercase;
     font-weight: 600;
     color: white;
