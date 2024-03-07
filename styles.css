@@ -114,20 +114,20 @@ body{
     
 }
 
-.color-change{
-    color:var(--Red);
-    font-weight: 600;
-    outline: var(--Red);
-    outline-width: .5px;
-    outline-style:solid
-}
-
 
 
 .fieldset .box input:focus-visible{
     outline: var(--DarkBlue);
     outline-width: .5px;
     outline-style:solid
+    
+}
+.color-change{
+    color:var(--Red);
+    font-weight: 600;
+    outline: var(--Red) !important;
+    outline-width: .5px !important;
+    outline-style:solid !important; 
     
 }
 

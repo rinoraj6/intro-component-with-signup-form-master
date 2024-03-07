@@ -1,5 +1,5 @@
 let formInput = document.querySelectorAll('.form-input');
-let     btnGreen = document.querySelector('.btn-green');
+let btnGreen = document.querySelector('.btn-green');
 let form = document.querySelector('.form');
 
 
@@ -24,7 +24,9 @@ btnGreen.addEventListener('click', (event)=>{  // event listner start
         if (item.type == 'text'){  // first and last name validation starts
 
             if (item.value == ''){  // input has no value
+                
                 if (item.parentElement.lastElementChild.classList.contains('hide-me')){
+                    console.log(item);
                     item.classList.add('color-change')
                     item.parentElement.lastElementChild.classList.remove('hide-me')
                     item.parentElement.lastElementChild.classList.add('show-me');
