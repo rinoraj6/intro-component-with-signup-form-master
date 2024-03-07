@@ -70,7 +70,7 @@ body{
 
 .col-2 .wrapper .btn-blue{
     width: 100%;
-    padding: 1.3rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
     background-color: var(--Blue);
     color:var(--GrayishBlue);
     font-size: 1rem;
